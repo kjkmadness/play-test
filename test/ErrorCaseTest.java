@@ -1,7 +1,7 @@
 import org.junit.*;
 
 public class ErrorCaseTest {
-    @Test(expected = java.lang.VerifyError.class)
+    @Test
     public void test1() throws ClassNotFoundException {
         Class.forName("ErrorCase");
     }
