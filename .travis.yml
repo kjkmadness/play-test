@@ -1,0 +1,6 @@
+language: java
+before_script:
+  - wget http://downloads.typesafe.com/play/2.2.1/play-2.2.1.zip
+  - unzip -q play-2.2.1.zip
+script: play-2.2.1/play test
+
